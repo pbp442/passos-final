@@ -1,12 +1,13 @@
-<ul> 
  {% for member in queen.members %}
-  <div class="card mb-3" style="max-width: 540px;">
-  <div class="row no-gutters">
-   <a href="{{ member.slug }}.html" class="card-link"> <img src="img/{{ member.image }}" class="card-img-top"> 
-  <div class="card-body">
-  <a href="{{ member.slug }}.html" class="card-link">{{ member.name }}</a>
-  </div>
-  </div>
+  <div class="row">
+   <div class="col-sm-12 col-lg-4">
+    <div class="card" style="width: 18rem;">
+     <div class="card-body">
+      <h2> {{ member.name }}</h2>
+      <p class="card-text"> {{ member.instruments }} </p>
+      <a href="{{ member.slug }}.html" class="card-link"> <img src="img/{{ member.image }}" class="card-img-top"> 
+     </div>
+    </div>
+   </div>
   </div>
  {% endfor %}
- </ul>
