@@ -2,7 +2,7 @@
   "members": [
     {
       "slug": "freddie-mercury",
-      "name": "Freddie Mercury",
+      "name": "freddie mercury",
       "instruments": "Vocals, keyboards",
       "tenure": "(1970–1991; his death)",
       "birthplace": "Stone Town, Zanzibar",
@@ -13,7 +13,7 @@
     },
     {
       "slug": "brian-may",
-      "name": "Brian May",
+      "name": "brian bay",
       "instruments": "Guitar, keyboards, vocals",
       "tenure": "(1970–present)",
       "birthplace": "Hampton, England",
@@ -24,7 +24,7 @@
     },
     {
       "slug": "roger-taylor",
-      "name": "Roger Taylor",
+      "name": "roger taylor",
       "instruments": "Drums, guitar, keyboards, vocals",
       "tenure": "(1970–present)",
       "birthplace": "King's Lynn, England",
@@ -35,7 +35,7 @@
     },
     {
       "slug": "john-deacon",
-      "name": "John Deacon",
+      "name": "john deacon",
       "instruments": "Bass, guitar, keyboards",
       "tenure": "(1971–1997)",
       "birthplace": "Leicester, England",

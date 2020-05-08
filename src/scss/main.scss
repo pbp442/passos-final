@@ -1,14 +1,15 @@
 // Custom variable overrides
 // See node_modules/bootstrap/scss/_variables.scss
 
-// $body-bg: black;
-// $body-color: white;
+$body-bg: black;
+$body-color: white;
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
 
 /* bootstrap */
 // Option A: Include all of Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "card";
 @import "jumbotron";
 // Option B: Include parts of Bootstrap
 // See https://getbootstrap.com/docs/4.1/getting-started/theming/#importing
@@ -20,5 +21,7 @@
 
 // Import partials
 @import "nav";
+
+
 
 
