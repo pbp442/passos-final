@@ -8,24 +8,14 @@
    </div>
   </div>
   <div class="row">
-   {% for discography in queen.discography %}
-  <div class="row">
-  <div class="col-12">
-    <div id="mdb-lightbox-ui"></div>
-    <div class="mdb-lightbox no-margin">
-      <figure class="col-md-12">
-        <a class="black-text" href="img/{{ discography.image}}"
-          data-size="1600x1067">
+{% for discography in queen.discography %}
+  <div class="col-sm-6 col-md-4">
           <img alt="picture" src="img/{{ discography.image}}"
-            class="img-fluid">
-          <h3 class="text-center my-3">{{discography.title}}</h3>
-          <h4 class="text-center my-3">{{discography.year}} </h4>
-        </a>
+            class="img-fluid mb-3 mx-auto" >
+          <h3 class="text-center">{{discography.title}}</h3>
+          <h4 class="text-center">{{discography.year}} </h4>
   </div>
+{% endfor %}
+</div>  
 </div>
-</div>        
-
-
-   {% endfor %}
-  
 {% endblock %}
